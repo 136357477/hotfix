@@ -1,0 +1,22 @@
+PODS:
+  - BuglyHotfix (1.1.0):
+    - BuglyHotfix/Core (= 1.1.0)
+  - BuglyHotfix/Core (1.1.0):
+    - JSPatch
+  - JSPatch (1.1.2):
+    - JSPatch/Core (= 1.1.2)
+  - JSPatch/Core (1.1.2)
+  - JSPatch/Extensions (1.1.2):
+    - JSPatch/Core
+
+DEPENDENCIES:
+  - BuglyHotfix
+  - JSPatch/Extensions
+
+SPEC CHECKSUMS:
+  BuglyHotfix: 23c68e3e6770e9fd36682aa6150ed236d62bbbf6
+  JSPatch: 741205ebb2e2238c223a436e4c8cf75cf40a345f
+
+PODFILE CHECKSUM: 881924f4d451a65e7ab71a142995790b47438ccb
+
+COCOAPODS: 1.2.0
